@@ -1,0 +1,207 @@
+.parent_container {
+  display: flex;
+  gap: 13px;
+  padding: 8px;
+  transition: 0.2s ease all;
+  > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  > div {
+    > p {
+      //styleName: Body 2;
+      font-family: Roboto;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0.25px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      color: #0364a2;
+      cursor: pointer;
+    }
+    > span {
+      display: block;
+      font-family: Roboto;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 16px;
+      letter-spacing: 0.4000000059604645px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      color: #00000099;
+    }
+  }
+}
+.main_pain_container {
+  > div {
+    padding: 0 28px;
+  }
+}
+.practice_parent_container {
+  display: flex;
+  gap: 13px;
+  padding: 8px 0;
+  transition: 0.2s ease all;
+  > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  > div {
+    > p {
+      //styleName: Body 2;
+      font-family: Roboto;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0.25px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      color: #5dc4c6;
+      cursor: pointer;
+    }
+    > span {
+      display: block;
+      font-family: Roboto;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 16px;
+      letter-spacing: 0.4000000059604645px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      color: #00000099;
+    }
+  }
+}
+
+.subsidary_container {
+  display: flex;
+  gap: 8px;
+  padding: 8px 0;
+  transition: 0.2s ease all;
+  > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  p {
+    cursor: pointer;
+  }
+  > div {
+    //styleName: Body 2;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000de;
+    > span {
+      font-family: Roboto;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 16px;
+      letter-spacing: 0.4000000059604645px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      color: var(--primary-blue, #0364a2);
+    }
+  }
+}
+
+.subsidary_main_container {
+  padding: 0 8px 0;
+  transition: 0.2s ease all;
+  > section {
+    padding: 0 58px;
+  }
+}
+
+.close {
+  transform: rotate(180deg);
+  transition: 0.2s ease all;
+}
+
+.open {
+}
+
+.table_tools_conatiner {
+  font-family: var(--LabelLargeFont);
+  font-size: var(--LabelLargeSize);
+  font-weight: 600;
+  line-height: var(--LabelLargeLineHeight);
+  letter-spacing: var(--LabelLargeTracking);
+  text-align: left;
+  color: #1d1b20;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #0000001f;
+}
+.table_tools_conatiner_xp {
+  font-family: var(--LabelLargeFont);
+  font-size: var(--LabelLargeSize);
+  font-weight: 600;
+  line-height: var(--LabelLargeLineHeight);
+  letter-spacing: var(--LabelLargeTracking);
+  text-align: left;
+  color: #1d1b20;
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #0000001f;
+}
+.record {
+  padding: 0px 16px;
+}
+.tools {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0px 16px;
+  > svg {
+    cursor: not-allowed;
+    path {
+      fill: #00000099;
+    }
+  }
+  &.active {
+    svg {
+      cursor: pointer;
+      path {
+        fill: var(--primary-blue, #0364a2);
+      }
+    }
+  }
+}
+.disable {
+  opacity: 0;
+}
+.org_scroll {
+  height: calc(100vh - 220px);
+  overflow: auto;
+}
+.empty_gap {
+  width: 20px;
+  height: 20px;
+}

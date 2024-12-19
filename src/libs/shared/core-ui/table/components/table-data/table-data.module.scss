@@ -1,0 +1,105 @@
+.td {
+  padding: 10px;
+  font-size: 12px;
+  background-color: var(--bs-bg-color);
+  border-bottom: 1px solid #0000001f;
+  border-top: 1px solid #0000001f;
+  > div {
+    // display: flex;
+    // justify-content: var(--row-align, center);
+    width: 100%;
+    // align-items: center;
+    text-wrap: wrap;
+  }
+  &:first-of-type {
+    // min-width: fit-content;
+  }
+  &:last-of-type {
+    // min-width: fit-content;
+  }
+}
+.fixed_left {
+  position: sticky;
+  left: 0;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
+  z-index: 887;
+}
+.fixed_right {
+  position: sticky;
+  right: 0;
+  box-shadow: -5px 10px 10px rgba(0, 0, 0, 0.1);
+  // 5px 10px 10px rgba(0, 0, 0, 0.1);
+  z-index: 887;
+}
+
+.child_container {
+  // padding: 10px;
+  max-width: 100%;
+  z-index: 888;
+  position: relative;
+  overflow: hidden;
+  overflow-x: scroll;
+  tr {
+    td {
+      background-color: var(--ticker-input) !important;
+    }
+    &:nth-child(even) {
+      td {
+        background-color: var(--ticker-drop-down) !important;
+      }
+    }
+  }
+}
+.primary {
+  background-color: var(--bs-bg-color);
+}
+.secondary {
+  background-color: var(--primary-light);
+}
+.expand_arrow {
+  cursor: pointer;
+  transform: rotate(90deg);
+}
+
+.close {
+  transform: rotate(0deg);
+}
+
+.even_row {
+  > td {
+    background-color: var(--primary-light);
+  }
+}
+
+.w-checkbox{
+  width: 36px;
+}
+.w-avatar{
+  width: 64px;
+}
+.w-name{
+  width: 25%;
+}
+.w-company{
+  width: 25%;
+}
+.w-email{
+  width: 22%;
+}
+.w-last{
+  width: 20%;
+}
+.w-15{
+  width: 15%;
+}
+.w-10{
+  width: 10%;
+}
+.w-company-top{
+  width: 25%;
+  text-align: center;
+}
+.w-email-top{
+  width: 22%;
+  text-align: center;
+}

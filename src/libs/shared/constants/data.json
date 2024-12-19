@@ -1,0 +1,113 @@
+[
+  {
+    "id": "1",
+    "nameAndSpeciality": {
+      "name": "Jonathan Mark Friedman",
+      "speciality": "Oral & Maxillofacial Surgery",
+      "linkedinURL": "https://www.linkedin.com/in/dr-jonathan-friedman-806b0818",
+      "patentCompany": "Randolph Center"
+    },
+    "companyAndUrl": {
+      "companyName": "Randolph Center for Oral and Maxillofacial Surgery",
+      "webAddress": "http://www.randolphoralsurgery.com"
+    },
+    "emailAndPhone": {
+      "email": ["yaakovfriedman@gmail.com"],
+      "phone": ["973-328-1555"]
+    },
+    "lastUpdated": "03/10/24 0:00"
+  },
+  {
+    "id": "2",
+    "nameAndSpeciality": {
+      "name": "Jonathan Mark Friedman",
+      "speciality": "Oral & Maxillofacial Surgery",
+      "linkedinURL": "https://www.linkedin.com/in/dr-jonathan-friedman-806b0818",
+      "patentCompany": "Randolph Center"
+    },
+    "companyAndUrl": {
+      "companyName": "Randolph Center for Oral and Maxillofacial Surgery",
+      "webAddress": "http://www.randolphoralsurgery.com"
+    },
+    "emailAndPhone": {
+      "email": ["yaakovfriedman@gmail.com"],
+      "phone": ["973-328-1555"]
+    },
+    "lastUpdated": "03/10/24 0:00",
+    "linkedIn": true
+  },
+  {
+    "id": "3",
+    "nameAndSpeciality": {
+      "name": "Jonathan Mark Friedman",
+      "speciality": "Oral & Maxillofacial Surgery",
+      "linkedinURL": "https://www.linkedin.com/in/dr-jonathan-friedman-806b0818",
+      "patentCompany": "Randolph Center"
+    },
+    "companyAndUrl": {
+      "companyName": "Randolph Center for Oral and Maxillofacial Surgery",
+      "webAddress": "http://www.randolphoralsurgery.com"
+    },
+    "emailAndPhone": {
+      "email": ["yaakovfriedman@gmail.com"],
+      "phone": ["973-328-1555"]
+    },
+    "lastUpdated": "03/10/24 0:00"
+  },
+  {
+    "id": "4",
+    "nameAndSpeciality": {
+      "name": "Jonathan Mark Friedman",
+      "speciality": "Oral & Maxillofacial Surgery",
+      "linkedinURL": "https://www.linkedin.com/in/dr-jonathan-friedman-806b0818",
+      "patentCompany": "Randolph Center"
+    },
+    "companyAndUrl": {
+      "companyName": "Randolph Center for Oral and Maxillofacial Surgery",
+      "webAddress": "http://www.randolphoralsurgery.com"
+    },
+    "emailAndPhone": {
+      "email": ["yaakovfriedman@gmail.com"],
+      "phone": ["973-328-1555"]
+    },
+    "lastUpdated": "03/10/24 0:00",
+    "flow": true
+  },
+  {
+    "id": "5",
+    "nameAndSpeciality": {
+      "name": "Jonathan Mark Friedman",
+      "speciality": "Oral & Maxillofacial Surgery",
+      "linkedinURL": "https://www.linkedin.com/in/dr-jonathan-friedman-806b0818",
+      "patentCompany": "Randolph Center"
+    },
+    "companyAndUrl": {
+      "companyName": "Randolph Center for Oral and Maxillofacial Surgery",
+      "webAddress": "http://www.randolphoralsurgery.com"
+    },
+    "emailAndPhone": {
+      "email": ["yaakovfriedman@gmail.com"],
+      "phone": ["973-328-1555"]
+    },
+    "lastUpdated": "03/10/24 0:00"
+  },
+  {
+    "id": "6",
+    "nameAndSpeciality": {
+      "name": "Jonathan Mark Friedman",
+      "speciality": "Oral & Maxillofacial Surgery",
+      "linkedinURL": "https://www.linkedin.com/in/dr-jonathan-friedman-806b0818",
+      "patentCompany": "Randolph Center"
+    },
+    "companyAndUrl": {
+      "companyName": "Randolph Center for Oral and Maxillofacial Surgery",
+      "webAddress": "http://www.randolphoralsurgery.com"
+    },
+    "emailAndPhone": {
+      "email": ["yaakovfriedman@gmail.com"],
+      "phone": ["973-328-1555"]
+    },
+    "lastUpdated": "03/10/24 0:00",
+    "linkedIn": true
+  }
+]

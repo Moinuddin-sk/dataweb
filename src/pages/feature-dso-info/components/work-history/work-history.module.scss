@@ -1,0 +1,24 @@
+.container {
+  border: 1px solid #d4dff4;
+  border-radius: 12px;
+  padding: 16px;
+  > p {
+    font-family: var(--LabelMediumFont);
+    font-size: var(--LabelMediumSize);
+    font-weight: 500;
+    line-height: var(--LabelMediumLineHeight);
+    letter-spacing: var(--LabelMediumTracking);
+    text-align: left;
+    color: #000000;
+  }
+  > h5 {
+    font-family: var(--BodyLargeFont);
+    font-size: var(--BodyLargeSize);
+    font-weight: 400;
+    line-height: var(--BodyLargeLineHeight);
+    letter-spacing: var(--BodyLargeTracking);
+    text-align: left;
+    color: var(--primary-black, #010101);
+    margin-bottom: 10px;
+  }
+}

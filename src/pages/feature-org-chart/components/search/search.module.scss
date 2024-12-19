@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  border: 1px solid var(--Border-color, #d9d9d9);
+  gap: 10px;
+  border-radius: 28px;
+  overflow: hidden;
+  margin-top: 16px;
+  padding: 5px 12px;
+  max-width: 40%;
+  > input {
+    flex: 1;
+    height: 100%;
+    outline: none;
+    border: 0px solid;
+  }
+  > span {
+    display: block;
+    width: 24px;
+    height: 24px;
+    svg {
+      path {
+        fill: #000000;
+      }
+    }
+  }
+}

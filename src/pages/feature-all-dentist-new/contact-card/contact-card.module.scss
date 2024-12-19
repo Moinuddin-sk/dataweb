@@ -1,0 +1,41 @@
+.practice_parent_container {
+  display: flex;
+  gap: 13px;
+  padding: 8px 0;
+  transition: 0.2s ease all;
+  > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  > div {
+    > p {
+      //styleName: Body 2;
+      font-family: Roboto;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0.25px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      color: #5dc4c6;
+      cursor: pointer;
+    }
+    > span {
+      display: block;
+      font-family: Roboto;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 16px;
+      letter-spacing: 0.4000000059604645px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      color: #00000099;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.container {
+  background: var(--Body-bg-new, #f3fafe);
+  height: 100vh;
+  
+}
+.logo{
+    width: 120px;
+  }
+.header {
+  background: var(--Body-bg-new, #f3fafe);
+  height: 66px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  > section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.btn {
+  background: var(--primary-blue, #0364a2);
+  min-width: 102px;
+  height: 30px;
+  gap: 8px;
+  border-radius: 80px;
+  opacity: 0px;
+  border: 0px solid;
+  outline: none;
+  color: #ffffff;
+  font-family: var(--LabelLargeFont);
+  font-size: var(--LabelLargeSize);
+  font-weight: 500;
+  line-height: var(--LabelLargeLineHeight);
+  letter-spacing: var(--LabelLargeTracking);
+  text-align: center;
+  padding: 5px 25px;
+}
+.loginForm{
+    display: flex;
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    justify-content: center;
+}
+.error{
+    visibility: hidden;
+    margin-bottom: 50px;
+}
+.showError{
+    visibility: visible;
+    margin-bottom: 20px;
+}

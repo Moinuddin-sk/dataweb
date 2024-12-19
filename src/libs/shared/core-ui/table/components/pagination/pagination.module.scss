@@ -1,0 +1,72 @@
+.main-conatiner {
+  display: flex;
+  justify-content: flex-end;
+  font: var(--contentMediumB);
+  flex: 1;
+  width: 100%;
+  gap: 16px;
+  border: 1px solid #0000001f;
+  border-top: 0px solid;
+  padding: 4px 10px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.row_page_container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font: var(--contentVerySmall);
+}
+
+.row_info {
+  font-family: var(--LabelLargeFont);
+  font-size: var(--LabelLargeSize);
+  font-weight: 400;
+  line-height: var(--LabelLargeLineHeight);
+  letter-spacing: var(--LabelLargeTracking);
+  text-align: left;
+  color: #666666;
+}
+
+.rows {
+  display: inline-block;
+  padding: 0 16px;
+  font-family: var(--LabelLargeFont);
+  font-size: var(--LabelLargeSize);
+  font-weight: 500;
+  line-height: var(--LabelLargeLineHeight);
+  letter-spacing: var(--LabelLargeTracking);
+  text-align: left;
+  color: #010101de;
+}
+
+.pagination_control {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  svg {
+    cursor: pointer;
+  }
+  > .reverse {
+    transform: rotate(180deg);
+  }
+  > .disable {
+    cursor: not-allowed;
+    rect {
+      fill: none;
+    }
+    path {
+      fill: #00000061;
+    }
+  }
+}
+
+.noBorder {
+  border: 0px solid #0000;
+}

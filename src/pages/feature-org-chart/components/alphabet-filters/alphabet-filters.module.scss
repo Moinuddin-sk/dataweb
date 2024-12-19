@@ -1,0 +1,27 @@
+.container {
+  background: #f6f6f6;
+  display: flex;
+  align-items: center;
+  margin: 16px 0;
+  li {
+    height: 30px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    //styleName: M3/label/medium;
+    font-family: var(--LabelMediumFont);
+    font-size: var(--LabelMediumSize);
+    font-weight: 500;
+    line-height: var(--LabelMediumLineHeight);
+    letter-spacing: var(--LabelMediumTracking);
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--Schemes-On-Surface-Variant, #49454f);
+    &.active {
+      border-bottom: 2px solid var(--primary-blue, #0364a2);
+    }
+  }
+}

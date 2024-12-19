@@ -1,0 +1,17 @@
+.container {
+  background: #ffffff;
+  border-radius: 28px;
+  height: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  > section {
+    display: grid;
+    grid-template-columns: minmax(356px, 1fr) 2fr;
+    grid-template-rows: auto auto;
+    gap: 16px;
+    padding: 16px;
+  }
+  > div {
+    padding: 0 16px 0 16px;
+  }
+}

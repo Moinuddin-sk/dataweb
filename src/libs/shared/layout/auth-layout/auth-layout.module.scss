@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  > .main_container {
+    flex: 1;
+    max-width: calc(100vw - 70px);
+    > section {
+      height: calc(100% - 66px);
+      padding: 0 20px 0 20px;
+      background: #FFF;
+    }
+  }
+}

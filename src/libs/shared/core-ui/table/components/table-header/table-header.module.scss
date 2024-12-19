@@ -1,0 +1,79 @@
+.header_container {
+  display: flex;
+  align-items: center;
+  // border-bottom: 1px solid #0000001f;
+  h6 {
+    white-space: no-wrap !important;
+  }
+  svg {
+    min-width: 15px;
+    min-height: 15px;
+    max-width: 15px;
+    max-height: 15px;
+    path {
+      fill: var(--bs-dark);
+    }
+    circle {
+      stroke: var(--bs-dark);
+    }
+  }
+}
+.table_header {
+  background: #f6f6f6;
+  color: #010101de;
+  --border-width: 0;
+  align-items: center;
+  text-wrap: wrap;
+  padding: 10px;
+  h6 {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    white-space: nowrap;
+    text-wrap: wrap;
+  }
+  &:last-of-type {
+    min-width: fit-content;
+  }
+}
+.fixed_left {
+  // position: sticky;
+  left: 0;
+}
+.fixed_right {
+  // position: sticky;
+  right: 0;
+}
+.w-checkbox{
+  width: 36px;
+}
+.w-avatar{
+  width: 64px;
+}
+.w-name{
+  width: 25%;
+}
+.w-company{
+  width: 25%;
+}
+.w-email{
+  width: 22%;
+}
+.w-last{
+  width: 20%;
+}
+.w-15{
+  width: 15%;
+}
+.w-10{
+  width: 10%;
+}
+
+.w-company-top{
+  width: 25%;
+  text-align: center;
+}
+.w-email-top{
+  width: 22%;
+  text-align: center;
+}
